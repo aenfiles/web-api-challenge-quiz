@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #d883e6;
+}
+
+header h1 {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0 auto;
+    text-align: center;
+    padding: 25px;
+}
+
+header {
+    background-color: aquamarine;
+    padding: 50px;
+    border: solid black;
+}
+
+.header-bar {
+    padding: 20px 20px 20px 20px;
+}
+
+.header-bar div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-bar p {
+    background-color: aquamarine;
+    font-weight: bold;
+    border: solid black ;
+    padding: 20px;
+    
+}
+
+.hs-button {
+    background-color: aquamarine;
+    font-weight: bold;
+    border: solid black;
+    padding: 10px;
+}
+
+
+
+.intro-padding {
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.big-long-words {
+margin: 0 auto;
+}
+
+.big-long-words h1, p {
+    background-color: aquamarine;
+    padding: 50px;
+}
+
+.big-long-words p {
+    padding: 50px;
+    font-size: 1.5em;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.start-quiz-button {
+    background-color:#f08b60;
+    font-weight: bold;
+    border: solid black ;
+    text-align: center;
+    padding: 30px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* QUESTIONS */
+
+.questions {
+    display: none;
+}
+
+/* END RESULT SCREEN */
+
+.end-screen {
+    display: none;
+}
+
+.high-scores-screen {
+    display: none;
+}
+
+.high-scores-screen ol {
+    overflow: scroll;
+    max-height: 100px;
+}

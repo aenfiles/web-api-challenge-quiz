@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA=Compatible" content="ie=edge">
+        <title>Challenge Quiz</title>
+        <link rel="stylesheet" href="./Assets/css/style.css">
+    </head>
+
+    <body>
+        <!--high scores & timer-->
+        <div class="header-bar">
+            <div id="header-bar-info">
+                <button class="hs-button">High Scores</button>
+                <p>Timer: 00</p>
+            </div>
+        </div>
+
+        <!--quiz intro-->
+        <div id="intro-page" class="big-long-words">
+            <header class="intro-padding">
+                <h1 class="page-title">Challenge Quiz</h1>
+                <p>Welcome to a Javascript Quiz! You will be asked a few questions
+                    about some basic Javascript knowledge, which will be timed in the 
+                    upper right hand corner. You will be graded at the end and 
+                    can see the highest scores in the upper left hand corner by 
+                    clicking the button. Let's get started!
+                </p>
+                <button class="start-quiz-button" id="start-quiz">Start Quiz!</button>
+            </header>
+        </div>
+
+        <!--MAIN quiz material-->
+
+        <main>
+
+        <!--question page-->
+        <section class="questions">
+            <!---GENERATED IN JAVASCRIPT-->
+            <h2>Question here</h2>
+            <ul>
+                <li>Answer 1</li>
+                <li>Answer 2</li>
+                <li>Answer 3</li>
+                <li>Answer 4</li>
+            </ul>
+        </section>
+
+
+
+        <!--end result screen-->
+
+        <section class="end-screen">
+            <h2>Quiz Completed</h2>
+            <p>Final Score: 00</p>
+
+            <div>
+                <label for="">Enter Initials:</label>
+                <input type="text">
+                <button>Submit</button>
+            </div>
+
+        </section>
+
+        <!--high scores screen-->
+
+        <section class="high-scores-screen">
+            <h2>High Scores:</h2>
+            <ol>
+                <li>AN - 30</li>
+                <li>AN - 30</li>
+                <li>AN - 30</li>
+                <li>AN - 30</li>
+            </ol>
+        </section>
+        </main>
+
+
+        <!--javascript-->
+        <script src="./Assets/js/script.js"></script>
+    </body>
+</html>
